@@ -12,7 +12,16 @@ const Register = () => {
 
   const onChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    console.log(formData);
+    // console.log(formData);
+  };
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (password !== password2) {
+      console.log('passwrods do not match');
+    } else {
+      console.log(formData);
+    }
   };
 
   return (
@@ -21,7 +30,7 @@ const Register = () => {
       <p className='lead'>
         <i className='fas fa-user'></i> Create Your Account
       </p>
-      <form className='form' action='create-profile.html'>
+      <form className='form' onSubmit={(e) => onSubmit(e)}>
         <div className='form-group'>
           <input
             type='text'
