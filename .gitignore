@@ -4,4 +4,4 @@ config/production.json
 config/default.json
 client/build
 client/.eslintcache
-client/node_modules
+client/node_modules/
