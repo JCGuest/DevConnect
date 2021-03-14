@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://jg:Password-1@devconnect.sufke.mongodb.net/devconnect?retryWrites=true&w=majority",
-  "jwtsecret": "mysecrettoken",
-  "githubClientId": "fa2d6cf050bbc2d676de",
-  "githubSecret": "4e6fe806228305fab5feaaeb33389eede7db0bb6"
-}
