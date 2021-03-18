@@ -5,3 +5,4 @@ config/default.json
 client/build
 client/.eslintcache
 client/node_modules/
+devconnect/node_modules/.cache
